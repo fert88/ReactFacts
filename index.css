@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 30px;
+
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.05em;
+    padding-left: 7px;
+
+}
+h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: right;
+
+color: #DEEBF8;
+}
+body{
+    background-color: #282d35;
+}
+.container{
+    background-color: #21222a;
+}
+.content{
+    padding-top: 40px;
+    background-color: #282d35;
+    background-image: url(./icon2.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 75%;
+    height: 100vh;
+    
+
+}
+h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 39.06px;
+line-height: 47px;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+padding-left: 25px;
+padding-top: 10px;
+}
+li>span{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+ul{
+    padding-left: 35px;
+    list-style: circle inside url("icon.png");
+}
+li{
+    padding-left: 15px;
+    padding-top: 15px;  
+}
+li::marker{
+ font-size: 1.4rem;
+ color: #61dafb;
+}
